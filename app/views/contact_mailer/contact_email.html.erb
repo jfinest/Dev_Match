@@ -2,15 +2,14 @@
 <html>
     
     <head>
-        <link rel="stylesheet" href="emailstyle.css.scss">
     </head>
     
     
     <body>
-        <p id= "emailheader">You have recieved message from contact form from </p>
-        <p id= "emailfrom"> From: <%= "#{ @name} "%> 
-        <p id= "emailemail"> Email: <%= "#{ @email} " %></p>
-        <p id= "emailbody">Message: <%= @body %></p>
+        <p>You have recieved message from contact form. </p>
+        <p> From: <%= "#{ @name} "%> 
+        <p> Email: <%= "#{ @email} " %></p>
+        <p>Message: <%= @body %></p>
         
     </body>
     
